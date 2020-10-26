@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    tools:context=".MainActivity"
+    tools:visibility="visible">
+
+
+    <TextureView
+        android:id="@+id/textureView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+      />
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_horizontal"
+        android:contentDescription="@string/app_name"
+        tools:srcCompat="@tools:sample/avatars" />
+
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:weightSum="100"
+       android:layout_gravity="bottom"
+       android:orientation="horizontal"
+       android:gravity="center"
+       android:layout_height="wrap_content">
+
+
+       <ImageView
+           android:id="@+id/cancel"
+           android:layout_width="58dp"
+           android:layout_height="58dp"
+           android:layout_gravity="center"
+           android:background="@drawable/ic_clear_black_24dp"
+           tools:srcCompat="@tools:sample/avatars"
+           />
+
+        <ImageView
+           android:id="@+id/takePhoto"
+           android:layout_width="58dp"
+           android:layout_height="58dp"
+            android:layout_marginStart="40dp"
+            android:layout_marginEnd="40dp"
+           android:layout_gravity="center"
+           android:visibility="visible"
+           android:background="@drawable/ic_photo_camera_black_24dp"
+           tools:srcCompat="@tools:sample/avatars" />
+
+       <ImageView
+           android:id="@+id/save"
+           android:layout_width="58dp"
+           android:layout_height="58dp"
+           android:layout_gravity="center"
+           android:background="@drawable/ic_done_all_black_24dp" />
+
+   </LinearLayout>
+
+    <ImageView
+        android:id="@+id/changeCamera"
+        android:layout_width="58dp"
+        android:layout_height="58dp"
+        android:layout_marginTop="200dp"
+        android:contentDescription="@string/app_name"
+        android:background="@drawable/ic_autorenew_black_24dp"
+        android:layout_gravity="end"/>
+</FrameLayout>

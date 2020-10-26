@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">JavaTEST</string>
+    <string name="message_read_storage">For Take A Picture We Need  Read Storage Permission!</string>
+    <string name="message_save_storage">For saving a image we need  Write Storage Permission!</string>
+    <string name="message_open_camera">For Take A Picture We Need Access Camera Permission!</string>
+    <string name="positive_button">Okey</string>
+    <string name="negative_button">Cancel</string>
+    <string name="message_cannot_save_image">Sorry You can not save an image!</string>
+    <string name="message_cannot_use_camera">Sorry You can not use camera!</string>
+
+</resources>
